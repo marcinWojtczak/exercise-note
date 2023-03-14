@@ -1,0 +1,248 @@
+.header {
+  width: 100%;
+  padding: 1rem;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo--img {
+  margin-left: 0.5rem;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+}
+
+.form {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.form__input--text {
+  width: 40%;
+}
+
+.form__input--number {
+  width: 12%;
+}
+
+.input {
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid var(--color-text);
+  outline: none;
+  background: var(--color-background);
+}
+
+.input::placeholder {
+  color: var(--color-subtext)
+}
+
+.form__button {
+  padding: 10px 15px;
+  outline: none;
+  background: var(--color-text);
+  box-shadow: 0 0 10px rgb(75, 75, 75);
+  transition: 0.2s all;
+  border: none;
+  border-radius: 5px;
+}
+
+.form__button:hover {
+  background: #f10303;
+}
+
+.form__button:active {
+  transform: scale(0.8);
+  box-shadow: 0 0 5px rgb(255, 1, 1);
+}
+
+.exerciseBox {
+  width: 90%;
+  height: 80vh;
+  margin: auto;
+  padding: 1rem;
+}
+
+.exercise {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.exercise__single--text {
+  width: 50%;
+}
+
+.exercise__single--number {
+  width: 12%;
+}
+
+.exercise__single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: url('../assets/background2.jpg');
+  
+}
+
+.exercise__single--edit {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.exercise__single--data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  gap: 10px;
+}
+
+.exercise__single--btn {
+  padding: 10px 15px;
+  background: var(--color-text);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.exercise__single--repetition,
+.exercise__single--sets,
+.exercise__single--exercise,
+.exercise__single--notes {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-background);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.exercise__single--exercise {
+  width: 60%
+}
+
+.exercise__single--sets {
+  width: 20%
+}
+
+.exercise__single--repetition {
+  width: 20%
+}
+
+
+
+.exercise__single--subtext,
+.exercise__single--header {
+  font-weight: 300;
+}
+
+.exercise__single--subtext {
+  margin: 0.5rem 0;
+}
+
+.exercise__single--text,
+.exercise__single--number {
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.exercise__single--editData {
+  display: flex;
+}
+
+.exercise__single--addNotes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 0.5rem ;
+}
+
+.exercise__single--textarea {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 8em;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  resize: none;
+  color: var(--color-background);
+  padding: 0.7rem;
+}
+
+.icon {
+  margin:0 3px;
+  cursor: pointer;
+}
+
+.exercise__single--icon {
+  position: relative;
+}
+
+.icon__toolTip {
+  position: absolute;
+  content: attr(data-tooltip);
+  color: #fff;
+  background: var(--color-text);
+  border-radius: 3px;
+  bottom: 50%;
+  left: 50%;
+  width: max-content;
+  padding: 2px 4px;
+  visibility: hidden;
+  font-size: 12px;
+}
+
+.exercise__single--icon:hover .icon__toolTip {
+  visibility: visible;
+  z-index:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

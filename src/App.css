@@ -1,0 +1,17 @@
+/* GENERAL STYLE */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: var(--color-subtext);
+}
+
+body {
+  background: url('assets/background.jpg');
+  font-family: var(--font-family);
+}
+
+
+
